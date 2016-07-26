@@ -1,0 +1,97 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* --- Header */
+.header {
+  padding: 30px 0px 80px;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+
+.nav li a {
+  color: #333;
+  margin:0;
+  border:0px;
+}
+
+/* --- Jumbotron ---  */
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h2 {
+  margin: 0px;
+  font-size: 50px;
+}
+
+.jumbotron span {
+  color: #ffc200;
+}
+
+/* --- Banner --- */
+.banner {
+  text-align: center;
+  margin-top: 120px;
+  background-color: #333;
+}
+
+.banner h1,p {
+  color: #FFF;
+}
+
+/* --- cards --- */
+.cards {
+  background-color:#ffc200 ;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.cards h2 {
+  margin-bottom: 20px;
+}
+
+.cards img {
+  padding:25px 0 25px 0;
+}
+
+/*--- footer --- */
+.footer {
+  padding: 50px 0 25px 0;
+  background-color: #FFF;
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
